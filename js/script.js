@@ -46,4 +46,32 @@ $(document).ready(function () {
     $(".clickable").click(function () {
         $("#Boolean").fadeIn().toggle();
     });
+
+    $(".clickable").click(function () {
+        $("#Undefined").fadeIn().toggle();
+    });
+
+    $(".clickable").click(function () {
+        $("#Nan").fadeIn().toggle();
+    });
+
+    $(".clickable").click(function () {
+        $("#Null").fadeIn().toggle();
+    });
+
+    $(".clickable").click(function () {
+        $("#Alert").fadeIn().toggle();
+    });
+
+    $(".clickable").click(function () {
+        $("#Comments").fadeIn().toggle();
+    });
+
+    $(".clickable").click(function () {
+        $("#Jquery").fadeIn().toggle();
+    });
+
+    $(".clickable").click(function () {
+        $("#Attributes").fadeIn().toggle();
+    });
 })
