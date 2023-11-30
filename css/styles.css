@@ -1,0 +1,83 @@
+.buttons {
+    padding-top: 40px;
+}
+
+.bg-variables {
+    background-color: #0dcaf0;
+}
+
+.bg-functions {
+    background-color: #198754;
+}
+
+.bg-arguments {
+    background-color: darkkhaki;
+}
+
+.bg-methods {
+    background-color: #6f42c1;
+}
+
+.bg-javascript {
+    background-color: #0d6efd;
+}
+
+.bg-operators {
+    background-color: #dc3545;
+}
+
+.bg-parameters {
+    background-color: #6c757d;
+}
+
+.bg-return {
+    background-color: darkmagenta;
+}
+
+.bg-chain {
+    background-color: crimson;
+}
+
+.bg-string {
+    background-color: darkslategrey;
+}
+
+.bg-boolean {
+    background-color: darkblue;
+    color: black;
+}
+
+.bg-undefined {
+    background-color: coral;
+}
+
+.bg-nan {
+    background-color: cornflowerblue;
+}
+
+.bg-null {
+    background-color: darkslateblue;
+}
+
+.bg-alert {
+    background-color: darkorange;
+}
+
+.bg-comment {
+    background-color: indigo;
+    color: black;
+}
+
+.bg-jquery {
+    background-color: lawngreen;
+}
+
+.bg-attribute {
+    background-color: chocolate;
+    color: black;
+}
+
+.clickable {
+    cursor: pointer;
+    color: #0088cc;
+}
