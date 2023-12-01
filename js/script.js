@@ -85,7 +85,7 @@ $(document).ready(function () {
 
     $(".clickable").click(function () {
         $("#Jquery-showing").fadeIn().toggle();
-        $("#Jquery-hidden").toggle();
+        $("#Jquery-hidden").togle();
     });
 
     $(".clickable").click(function () {
