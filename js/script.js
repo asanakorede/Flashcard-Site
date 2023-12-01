@@ -1,18 +1,27 @@
 $(document).ready(function () {
     $(".clickable").click(function () {
-        $("#Javascript").fadeIn().toggle();
+        $("#Javascript-showing").toggle();
+        $("#Javascript-hidden").toggle();
     });
 
     $(".clickable").click(function () {
-        $("#Operators").fadeIn().toggle();
+        $("#Operators-showing").toggle();
+        $("#Operators-hidden").toggle();
     });
 
     $(".clickable").click(function () {
-        $("#Variables").fadeIn().toggle();
+        $("#Variables-showing").fadeIn().toggle();
+        $("#Variables-hidden").toggle();
     });
 
     $(".clickable").click(function () {
-        $("#Functions").fadeIn().toggle();
+        $("#Functions-showing").fadeIn().toggle();
+        $("#Functions-hidden").toggle();
+    });
+
+    $(".clickable").click(function () {
+        $("#Methods-showing").fadeIn().toggle();
+        $("Methods-hidden").toggle();
     });
 
     $(".clickable").click(function () {
@@ -20,58 +29,67 @@ $(document).ready(function () {
     });
 
     $(".clickable").click(function () {
-        $("#Methods").fadeIn().toggle();
+        $("#Arguments-showing").fadeIn().toggle();
+        $("#Arguments-hidden").toggle();
     });
 
     $(".clickable").click(function () {
-        $("#Arguments").fadeIn().toggle();
+        $("#Parameters-showing").fadeIn().toggle();
+        $("#Parameters-hidden").toggle();
     });
 
     $(".clickable").click(function () {
-        $("#Parameters").fadeIn().toggle();
+        $("#Return-showing").fadeIn().toggle();
+        $("#Return-hidden").toggle();
     });
 
     $(".clickable").click(function () {
-        $("#Return").fadeIn().toggle();
+        $("#Chain-showing").fadeIn().toggle();
+        $("#Chain-hidden").toggle();
     });
 
     $(".clickable").click(function () {
-        $("#Chain").fadeIn().toggle();
+        $("#Strings-showing").fadeIn().toggle();
+        $("#Strings-hidden").toggle();
     });
 
     $(".clickable").click(function () {
-        $("#Strings").fadeIn().toggle();
+        $("#Boolean-showing").fadeIn().toggle();
+        $("#Boolean-hidden").toggle();
     });
 
     $(".clickable").click(function () {
-        $("#Boolean").fadeIn().toggle();
+        $("#Undefined-showing").fadeIn().toggle();
+        $("#Undefined-hidden").toggle();
     });
 
     $(".clickable").click(function () {
-        $("#Undefined").fadeIn().toggle();
+        $("#Nan-showing").fadeIn().toggle();
+        $("#Nan-hidden").toggle();
     });
 
     $(".clickable").click(function () {
-        $("#Nan").fadeIn().toggle();
+        $("#Null-showing").fadeIn().toggle();
+        $("#Null-hidden").toggle();
     });
 
     $(".clickable").click(function () {
-        $("#Null").fadeIn().toggle();
+        $("#Alert-showing").fadeIn().toggle();
+        $("#Alert-hidden").toggle();
     });
 
     $(".clickable").click(function () {
-        $("#Alert").fadeIn().toggle();
+        $("#Comments-showing").fadeIn().toggle();
+        $("#Comments-hidden").toggle();
     });
 
     $(".clickable").click(function () {
-        $("#Comments").fadeIn().toggle();
+        $("#Jquery-showing").fadeIn().toggle();
+        $("#Jquery-hidden").toggle();
     });
 
     $(".clickable").click(function () {
-        $("#Jquery").fadeIn().toggle();
-    });
-
-    $(".clickable").click(function () {
-        $("#Attributes").fadeIn().toggle();
+        $("#Attributes-showing").fadeIn().toggle();
+        $("#Attributes-hidden").toggle();
     });
 })
